@@ -16,6 +16,7 @@ public class IntListsDifferenceSolution {
         allDiffs.addAll(difference);
         allDiffs.addAll(difference2);
 
+
         Set<Integer> result = new HashSet<>(allDiffs);
         System.out.println(result);
 
